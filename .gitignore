@@ -1,0 +1,10 @@
+
+# compiled javascript
+lib/
+
+# broccoli-timepiece temp directory
+tmp/
+
+# dependencies
+node_modules
+

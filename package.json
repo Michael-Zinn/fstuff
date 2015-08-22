@@ -1,0 +1,34 @@
+{
+  "name": "fstuff",
+  "version": "0.0.0",
+  "description": "Random extras for functional programming with ramda and bluebird.",
+  "main": "lib/fstuff.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedNifre/fstuff.git"
+  },
+  "keywords": [
+    "ramda",
+    "bluebird",
+    "functional",
+    "do",
+    "notation",
+    "do-notation"
+  ],
+  "author": "Michael Zinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedNifre/fstuff/issues"
+  },
+  "devDependencies": {
+    "broccoli": "^0.16.7",
+    "broccoli-coffee": "^0.4.1"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "hashmap": "^2.0.3"
+  }
+}
