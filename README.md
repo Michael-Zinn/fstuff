@@ -65,6 +65,7 @@ getThings()
 ## Developer Hint
 
 The git repository only contains the source code while the module on npmjs.com only contains the compiled JavaScript. If you want to modify fstuff you shoudl do this:
+
 1. Get the source code from https://github.com/RedNifre/fstuff (Don't edit the raw JavaScript...)
 2. Install `broccoli-timepiece` globally.
 3. Run `broc.sh`. This starts broccoli-timepiece which monitors the source directory so any changes will be compiled instantly. The script is just one line so if you are on Windows you can just copy the line and run it directly instead.
