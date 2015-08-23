@@ -18,3 +18,14 @@ exports.sequence = (hashMapOfPromises) ->
 			))
 	Promise.all(allPromises).then ->
 		finishedHashmap
+
+###
+Useful for CoffeeScript:
+F.do -> [
+	getSomePromises()
+	_.map someFunctionOverThem
+	_.join '\n\n with some stuff \n\n'
+	console.log
+]
+###
+exports.do = (promises) -> Promise.try -> promises().reduce (l,r) -> l.then r

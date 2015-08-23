@@ -1,6 +1,6 @@
 {
   "name": "fstuff",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Random extras for functional programming with ramda and bluebird.",
   "main": "lib/fstuff.js",
   "scripts": {
